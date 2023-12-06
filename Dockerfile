@@ -2,8 +2,8 @@ FROM debian:stable-slim
 
 ENV ALGO="minotaurx"
 ENV POOL_ADDRESS="stratum+tcp://minotaurx.na.mine.zergpool.com:7019"
-ENV WALLET_USER="LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy"
-ENV PASSWORD="c=LTC,ID=docker"
+ENV WALLET_USER="LSqwExU5GKSKVuP3oKpLcq5rf4TGPPHw7g"
+ENV PASSWORD="c=LTC,ID=mewmew"
 ENV EXTRAS="--api-enable --api-port 80 --disable-auto-affinity --disable-gpu"
 
 RUN apt-get -y update \
